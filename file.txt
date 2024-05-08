@@ -1,0 +1,23 @@
+
+go to folder -- on path tab-- type-- cmd
+
+cmd=npm init
+enter-- enter-- and go on
+
+vsc=  create new file... index.js
+
+cmd= download express... npm install express --save
+
+vsc= pen index.js
+and write thode four lines of code in it
+
+create folder name -- public.. create file in it-- index.html.. write anything in it
+
+cmd= node index.js
+
+go to google==  localhost:4000
+
+
+
+............................
+
