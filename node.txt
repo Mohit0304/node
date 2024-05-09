@@ -1,0 +1,36 @@
+
+This code snippet is a basic Node.js application using the Express.js framework to create a 
+server that serves static files from a directory named "public". Let's break down the code:
+
+
+const express = require('express');
+
+This line imports the Express.js framework into the application. Express.js is a popular 
+web framework for Node.js, used for building web applications and APIs.
+
+
+
+const app = express();
+
+This line initializes an Express application by calling the express() function, which creates 
+an instance of an Express application.
+
+
+
+app.use(express.static('public'));
+
+This line configures Express to serve static files from the "public" directory.
+The express.static() middleware function is used to serve static files such as 
+HTML, CSS, images, and JavaScript files.
+In this case, any files placed in the "public" directory will be served by the Express server.
+
+
+
+app.listen(4000, () => {
+    console.log("Server is started");
+});
+
+This line starts the Express server and makes it listen for incoming HTTP requests on port 4000.
+The app.listen() method takes two arguments: the port number to listen on and a callback function
+ that is executed once the server starts successfully.
+In this case, it logs a message "Server is started" to the console once the server is running.
